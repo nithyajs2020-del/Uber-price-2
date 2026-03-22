@@ -99,7 +99,7 @@ with open('trained_model(1).pkl', 'rb') as file:
 
 # Load the one-hot encoded column names
 with open('one_hot_encoded_columns(1).pkl', 'rb') as file:
-    one_hot_encoded_columns(1) = pickle.load(file)
+    one_hot_encoded_columns = pickle.load(file)
 
 # Haversine distance function (from notebook)
 def haversine_distance(lat1, lon1, lat2, lon2):
