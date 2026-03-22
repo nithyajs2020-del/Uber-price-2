@@ -92,7 +92,7 @@ h1 {
 """, unsafe_allow_html=True)
 
 # Load the trained model
-with open('trained_model.pkl', 'rb') as file:
+with open('trained_model(1).pkl', 'rb') as file:
     model = pickle.load(file)
 
 
